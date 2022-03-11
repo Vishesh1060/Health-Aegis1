@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: linear-gradient(rgba(9, 23, 85), rgba(9, 23, 85, 0.75));
+  background: linear-gradient(rgb(9, 23, 85), rgba(9, 23, 85, 0.932));
   opacity:100%;
   transition: all 0.3s;
   z-index: 1000;
@@ -383,7 +383,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg1.jpeg") top center;
+  background: url("../img/blue.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -704,7 +704,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero-bg1.jpeg") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
@@ -720,6 +720,19 @@ section {
 }
 
 .cta .cta-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.why-us .btn {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
