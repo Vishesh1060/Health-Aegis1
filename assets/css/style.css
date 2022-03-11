@@ -590,6 +590,7 @@ section {
   color: #fff;
 }
 
+
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
@@ -732,7 +733,7 @@ section {
   border: 2px solid #fff;
   color: #fff;
 }
-.why-us .btn {
+.btnSpec {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
