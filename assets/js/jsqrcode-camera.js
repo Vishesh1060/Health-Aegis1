@@ -91,9 +91,10 @@ function QRCodeScanner(options) {
     controlsOverlayElement
   ]);
   Object.assign(videoPanel.style, {
-    position: 'relative',
+    position: '',
     left: 0,
     right: 0,
+    width: 0,
     top: 0,
     bottom: 0
   });
@@ -206,9 +207,9 @@ function QRCodeScanner(options) {
   
   // Initialization of QRCodeScanner
   Object.assign(rootElement.style, {
-    position: 'relative',
-    width: width + 'px',
-    height: height + 'px',
+    position: 'center',
+    width: '75%',
+    height: '75%',
     backgroundColor: 'black'
   });
   appendChildren(rootElement, [
